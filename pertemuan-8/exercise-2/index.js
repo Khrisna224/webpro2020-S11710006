@@ -1,4 +1,4 @@
-let total = 0
+let total=0;
 let account = {
     name: "John",
     expenses: []
@@ -10,7 +10,7 @@ function addExpenses(description, amount) {
 
 function getAccountSummary() {
     account.expenses.forEach(function(el){
-        total = total + el.amount
+        total += el.amount
     })
     console.log("Total pengeluaran "+ account.name +" adalah Rp. "+ total)
 }
