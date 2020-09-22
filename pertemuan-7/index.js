@@ -2,7 +2,6 @@
 // if else 
 let acc = 100
 let grade
-
 if (acc === 100){
     grade = 'SS'
 }
