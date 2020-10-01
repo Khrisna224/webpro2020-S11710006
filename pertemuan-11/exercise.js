@@ -7,3 +7,5 @@ const yearUntilRetirement = (year, firstName) =>{
         console.log(`${firstName} is already retired.`)
     }
 }
+
+yearUntilRetirement(2000, "Khrisna")
