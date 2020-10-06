@@ -59,7 +59,7 @@ orang.pekerjaan = "Guru"
 orang = {...orang, pekerjaan: "Guru", pendidikan: "S2"}
 console.log(orang);
 
-//Menggabungkan Object
+//3. Menggabungkan Object
 const obj1 = {a:1,b:2}
 const obj2 = {c:3,d:4}
 const objectGabungan = {...obj1,...obj2}
