@@ -1,5 +1,5 @@
 // 1
-const calculateAge = ((birthYear) => 2019 - birthYear)
+const calculateAge = (birthYear) => 2019 - birthYear
 
 const yearUntilRetirement = (object) => {
     let age = calculateAge(object.year);
