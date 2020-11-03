@@ -7,8 +7,6 @@ warnaKesukaan("merah");
 let namaBuah1 = ['apel', 'mangga'];
 let namaBuah2 = ['sirsak', 'semangka'];
 
-let semuaNamaBuah;
-
-semuaNamaBuah = [...namaBuah1, ...namaBuah2];
+let semuaNamaBuah = [...namaBuah1, ...namaBuah2];
 
 console.log(semuaNamaBuah);
